@@ -421,4 +421,70 @@ QUALITY
 
  */
 
- 
+ #values .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+ }
+
+ .values__description {
+    padding: 32px 64px 32px 0;
+ }
+
+ .values__title {
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 2.5px;
+    margin: 16px 0 32px;
+ }
+
+ .values__title span {
+    color: #6415ff;
+ }
+
+.values__para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.75;
+}
+
+.values__list {
+    display: flex;
+}
+
+.value {
+    padding-top: 32px;
+    padding-right: 32px;
+}
+
+.value__title {
+    font-size: 20px;
+    color: #243e63;
+    font-weight: bold;
+    
+}
+
+ .values__img {
+    max-height: 490px;
+ }
+
+ .value__para {
+    font-size: 16px;
+    color: #718096;
+ }
+
+ i {
+    margin-right: 16px;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #6415ff;
+    color: white;
+
+ }

@@ -506,3 +506,133 @@ QUALITY
     background-color: rgba(80, 17, 204);
     cursor: pointer;
  }
+
+ /*
+
+ PRICING
+
+ */
+ 
+.section_tag {
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+ }
+
+ .pricing_title {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin: 16px 0;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+ }
+
+ .pricing_title span {
+    color: #6415ff;
+ }
+
+ .pricing_para {
+    max-width: 580px;
+    text-align: center;
+    margin: 0 auto;
+    color: #7c8ba1;
+    margin-bottom: 32px;
+ }
+
+ .pricing_plans {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+ }
+
+ .pricing_plan {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+ }
+
+  .pricing_title--type {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 32px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .pricing_price {
+    font-size: 40px;
+    margin: 16px 0;
+    font-weight: 700;
+    text-align: center;
+    color: #1a202c;
+  }
+
+  .pricing_time {
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 32px;
+    text-align: center;
+    color: #a0aec0;
+  }
+
+  .pricing_box {
+    border-top: 2px solid #e5e7eb;
+    border-bottom: 2px solid #e5e7eb;
+    text-align: center; 
+  }
+
+  .pricing_box--title {
+    border-top: 2px solid #e5e7eb;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+    margin-top: 32px;
+    font-weight: 700;
+    color: #1a202c;
+  }
+
+.pricing__list {
+display: flex;
+flex-direction: column;
+padding: 0;
+text-align: center;
+margin:0;
+margin-bottom: 32px;
+  }
+
+  .pricing__feature {
+    font-weight: 500;
+    margin-top: 20px;
+    color: #718096;
+  }
+
+  .pricing__btn {
+    border: none;
+    border-radius: 100px;
+    padding: 16px 0;
+    margin: 32px auto;
+    text-align: center;
+     font-weight: 700;
+     color: #f7fafc;
+     background: linear-gradient(135deg, #38b2ac, #81e6d9);
+     width: 60%;
+     display: block;
+  }
+
+  .pricing_plan::after {
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, #38b2ac, #81e6d9);
+  }

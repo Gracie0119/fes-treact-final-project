@@ -660,8 +660,6 @@ margin-bottom: 32px;
     width: 100%;
   }
 
- 
-
   .testimonials__desc {
     padding-left: 64px;
     width: 50%;
@@ -741,4 +739,70 @@ margin-bottom: 32px;
 
   button {
     cursor: pointer;
-  
+  }
+
+  /*
+
+  GET STARTED
+
+*/
+
+.start__container {
+    width: 100%;
+    background-color: rgb(100, 21, 255);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.start__row {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.start__title {
+    color: #f7fafc;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+.start__btns {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+
+.start__btn {
+    padding: 20px 40px;
+    border-radius: 500px;
+    font-weight: 700;
+    background-color: #f56565;
+    border: none;
+    color: #f7fafc;
+    margin-right: 32px;
+    margin-left: 40px;
+}
+
+.contact__us {
+    padding: 20px 40px;
+    border-radius: 500px;
+    font-weight: 700;
+    background-color: rgb(100, 21, 255);
+    color: #f7fafc;
+    border-color: #f7fafc;
+}
+
+/*
+
+FOOTER
+
+*/
